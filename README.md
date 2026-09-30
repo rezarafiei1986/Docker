@@ -1,39 +1,24 @@
 # Docker
-Docker installation guides and practical Docker Compose examples for Linux and DevOps.
 
+Docker installation guides, practical Docker Compose examples, and containerized infrastructure deployments for Linux and DevOps environments.
 
+Contents
+Installation
+Docker Compose
+Networking
+Storage
+Examples
+Repository Structure
+Repository Structure
 docker/
-├── README.md
-│
 ├── installation/
 │   ├── rhel/
-│   │   └── README.md
 │   ├── ubuntu/
-│   │   └── README.md
 │   └── debian/
-│       └── README.md
-│
 ├── compose/
 │   ├── elk/
-│   │   ├── docker-compose.yml
-│   │   └── README.md
 │   ├── nginx/
-│   │   ├── docker-compose.yml
-│   │   └── README.md
-│   ├── mysql/
-│   │   ├── docker-compose.yml
-│   │   └── README.md
-│   └── ...
-│
+│   └── mysql/
 ├── networking/
-│   ├── bridge/
-│   ├── overlay/
-│   └── README.md
-│
 ├── storage/
-│   ├── volumes/
-│   └── bind-mounts/
-│
 └── examples/
-    ├── web-app/
-    └── monitoring/
